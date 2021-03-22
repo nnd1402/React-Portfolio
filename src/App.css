@@ -4,13 +4,34 @@
   --primary-white: #fff;
   --primary-orange: #f9ab00;
   --primary-dark: rgba(255, 255, 255, 0);
+  --primary-red: #ef4035;
+  --primary-hover-red: #f33501;
+}
+
+@media (max-width: 768px) {
+  .particles-canvas {
+    display: none;
+  }
+  .main-info h1 {
+    font-size: 1.5rem !important;
+  }
+  .typed-text {
+    font-size: 1.5rem !important;
+  }
+  .navbar-brand {
+    width: 7rem;
+  }
 }
 
 body {
   font-family: 'Roboto', sans-serif !important;
 }
 
-/* Navbar */
+/**************** Navbar ****************/
+nav {
+  z-index: 2;
+}
+
 .logo {
   width: 80px;
 }
@@ -44,4 +65,61 @@ nav ul li {
 
 .navbar-nav > li > a:hover {
   border-bottom: 2px solid var(--primary-orange);
+}
+
+/**************** Header ****************/
+.header-wrapper {
+  position: relative;
+  background: url(https://i.pinimg.com/originals/1f/3d/85/1f3d85148ab183f085a42b5649069499.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 1;
+}
+
+.main-info h1 {
+  color: var(--primary-orange);
+}
+
+/**************** Typed Text ****************/
+.typed-text {
+  font-size: 2rem;
+  color: var(--primary-white);
+}
+
+/**************** Header main offer button ****************/
+.btn-main-offer {
+  border: 1px solid var(--primary-red);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 10px 12px 12px 12px;
+  color: var(--primary-white);
+  margin: 2rem;
+}
+.btn-main-offer:hover {
+  text-decoration: none;
+  background-color: var(--primary-hover-red);
+  color: var(--primary-white);
+  transition: 0.5s ease-in-out;
+}
+
+/**************** Header Particles ****************/
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
 }
