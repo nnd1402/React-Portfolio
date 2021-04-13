@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Header from './components/Header'
 import AboutMe from './components/AboutMe'
 import Services from './components/Services'
+import Portfolio from './components/Portfolio'
 
 import { Particles,  ShapeType } from 'react-particles-js'
 import { faCircle } from '@fortawesome/free-solid-svg-icons';
@@ -37,6 +38,7 @@ function App() {
     <Header />
     <AboutMe />
     <Services />
+    <Portfolio />
   </>
   )
 }
