@@ -1,7 +1,7 @@
 import React from 'react'
-import fortisi from '../images/netflix.png'
-import covid from '../images/city-guide-app.png'
-import travel from '../images/portfolio.png'
+import fortisi from '../images/fortisi-png.png'
+import covid from '../images/covid-png.png'
+import travel from '../images/travel-png.png'
 import music from '../images/MusicPlayer.png'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -18,7 +18,7 @@ const Portfolio = () => {
         const content = (
     <>
         <img className="portfolio-image-popupbox" src={fortisi} alt="Fortisi E-commerce Project..."/>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ipsam dolores consectetur voluptate explicabo! Nemo laudantium quos, perspiciatis maxime placeat praesentium optio vitae consequatur recusandae blanditiis sed eligendi qui necessitatibus!</p>
+        <p>Fortisi e-commerce project built with Angular and Firebase.</p>
         <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/nnd1402/Fortisi.git")}>https://github.com/nnd1402/Fortisi.git</a>
     </>
     )
@@ -48,7 +48,7 @@ const Portfolio = () => {
         const content = (
     <>
         <img className="portfolio-image-popupbox" src={covid} alt="Covid Tracker Project..."/>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ipsam dolores consectetur voluptate explicabo! Nemo laudantium quos, perspiciatis maxime placeat praesentium optio vitae consequatur recusandae blanditiis sed eligendi qui necessitatibus!</p>
+        <p>Covid numbers tracker app built using React and React Hooks.</p>
         <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/nnd1402/covid-tracker.git")}>https://github.com/nnd1402/covid-tracker.git</a>
     </>
     )
@@ -78,7 +78,7 @@ const Portfolio = () => {
         const content = (
     <>
         <img className="portfolio-image-popupbox" src={travel} alt="Travel Agency Project..."/>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ipsam dolores consectetur voluptate explicabo! Nemo laudantium quos, perspiciatis maxime placeat praesentium optio vitae consequatur recusandae blanditiis sed eligendi qui necessitatibus!</p>
+        <p>Travel Agency website for booking holidays. Built using javascript with jQuery.</p>
         <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/nnd1402/Travel-Agency.git")}>https://github.com/nnd1402/Travel-Agency.git</a>
     </>
     )
@@ -107,7 +107,7 @@ const Portfolio = () => {
         const content = (
     <>
         <img className="portfolio-image-popupbox" src={music} alt="Music Player..."/>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ipsam dolores consectetur voluptate explicabo! Nemo laudantium quos, perspiciatis maxime placeat praesentium optio vitae consequatur recusandae blanditiis sed eligendi qui necessitatibus!</p>
+        <p>Application for playing music stored on your local device.</p>
         <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/nnd1402/MusicPlayer.git")}>https://github.com/nnd1402/MusicPlayer.git</a>
     </>
     )

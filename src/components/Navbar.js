@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
     <nav className="navbar navbar-expand-lg navbar-light bg-dark">
         <div className="container">
-            <a className="navbar-brand" href='#'><h1 className="text-warning">Nenad Logo</h1></a>
+            <a className="navbar-brand" href='#'><h1 className="text-warning">Logo or smthn</h1></a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <FontAwesomeIcon icon={faBars} style={{color: "#fff"}}/>
                 </button>
@@ -21,9 +21,6 @@ const Navbar = () => {
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" href="#">Services</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="#">Experience</a>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" href="#">Portfolio</a>
