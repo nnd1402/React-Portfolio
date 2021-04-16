@@ -127,6 +127,7 @@ nav ul li {
 	background-color: var(--primary-hover-red);
 	color: var(--primary-white);
 	transition: 0.3s ease-in-out;
+	cursor: pointer;
 }
 
 /**************** Header Particles ****************/
@@ -270,6 +271,9 @@ nav ul li {
 }
 
 /**************** OverFlow Box ****************/
+.box-content {
+}
+
 .portfolio-image-popupbox {
 	width: 50rem;
 	padding: 0 0.5rem;
@@ -289,13 +293,12 @@ nav ul li {
 	.portfolio-image-popupbox {
 		width: 100%;
 	}
+	.hyper-link {
+		font-size: 13px;
+	}
 }
 
 @media (max-height: 500px) {
-	.popubox-wrapper {
-		height: 100%;
-	}
-
 	.portfolio-image-popupbox {
 		width: 60%;
 	}
