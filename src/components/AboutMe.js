@@ -14,7 +14,7 @@ const AboutMe = () => {
                     <h1 className="about-heading">About Me</h1>
                     <p className="text-light text-justify">Hi, welcome to my portfolio page. My name is Nenad and I'm front-end web developer. My current toolset includes React, Redux, Angular, TypeScript and all the other various frameworks, libraries and technologies related to them.</p>
                     <p className="text-light text-justify">I enjoy building interactive javascript applications. Send me the job and I will take care of all the code development, design planning or whatever other role you see me best in.</p>
-                    <p className="text-light text-justify">In cases when you already have an existing team, but you could still use some help, contact me as well. I’ll fit in very quickly, I promise.</p>
+                    <p className="text-light text-justify">In cases when you already have an existing team, but you could still use some help, contact me as well. I’ll fit in very quickly.</p>
                 </div>
             </div>
         </div>
