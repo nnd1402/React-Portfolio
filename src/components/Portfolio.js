@@ -49,7 +49,7 @@ const Portfolio = () => {
     <>
         <img className="portfolio-image-popupbox" src={covid} alt="Covid Tracker Project..."/>
         <p>Covid numbers tracker app built using React and React Hooks.</p>
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/nnd1402/Travel-Agency.git")}>https://github.com/nnd1402/covid-tracker.git</a>
+        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/nnd1402/covid-tracker.git")}>https://github.com/nnd1402/covid-tracker.git</a>
     </>
     )
     PopupboxManager.open({content})
